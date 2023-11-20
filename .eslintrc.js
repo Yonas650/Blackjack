@@ -3,10 +3,7 @@ module.exports = {
         "browser": true,
         "es2021": true
     },
-    "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended"
-    ],
+    "extends": "eslint:recommended",
     "overrides": [
         {
             "env": {
@@ -24,14 +21,6 @@ module.exports = {
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    "plugins": [
-        "react"
-    ],
     "rules": {
-    },
-    "settings": {
-        "react": {
-            "version": "detect" // Auto-detect the React version
-        }
     }
-};
+}
