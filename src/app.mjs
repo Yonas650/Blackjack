@@ -1,8 +1,8 @@
 import express from 'express';
 const app = express();
 
-// to parse json bodies, uncomment the following line:
-// app.use(express.json())
+
+app.use(express.json())
 
 import url from 'url';
 import path from 'path';
