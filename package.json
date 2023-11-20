@@ -1,0 +1,18 @@
+{
+  "name": "homework05-yonas650",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "eslint-plugin-react": "^7.33.2"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
